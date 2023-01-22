@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="test-container">
+	<h1>Hello, I am Spencer Rafada</h1>
+	<h2>I am a ...</h2>
+	<img src="img/me.jpeg" alt="Me, Myself, and I" />
+</div>
+
+<style lang="scss">
+	.test-container {
+		img {
+			width: 20%;
+		}
+	}
+</style>
